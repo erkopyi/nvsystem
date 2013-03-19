@@ -13,3 +13,4 @@ title: Kontakt
 - [www.nvsystem.eu]
 
 [www.nvsystem.eu]: http://nvsystem.eu
+{% include email.html %}
