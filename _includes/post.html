@@ -1,0 +1,9 @@
+<div class=sub_menu>
+
+{% for cat in site.posts %}
+	{% if cat.my_tag == page.my_tag %}
+		<li>
+		<a href="{{ cat.url }}">{{cat.title}}</a>
+		</li>
+	{% endif %}
+{% endfor %}

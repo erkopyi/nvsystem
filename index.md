@@ -1,0 +1,14 @@
+---
+layout: submenu
+title: Firmast
+my_tag: Firmast
+---
+
+
+OÜ Nv System on 2005 aastal loodud peamiselt nõrkvoolusüsteemide paigaldusega tegelev ettevõte. Kuigi oleme turul suhteliselt uus firma on meie töötajatel juba varasem pikaajaline kogemus antud valdkonnas, nii et tegemist on oma ala spetsialistidega.
+
+Paigaldame suures mahus erinevaid nõrkvoolusüsteeme, näiteks valve-, videovalve-, tulekahju-, läbipääsu-, helindus-, side-, ja televisioonilahendusi. Samuti oleme võimelised leidma just kliendile vajaliku erilahenduse ja sellest ka reaalselt toimiva süsteemi looma.
+
+Meile on väga tähtis iga kliendi täpsete vajaduste mõistmine , mis suurtes firmades ei ole sellisel määral võimalik. Seetõttu leiate tõenäoliselt et meie poolt pakutavad teenused ja lahendused on ajakohased ja kvaliteetsed.
+
+Omame ka valveseadmete projekteerimiseks, paigalduseks, ja hoolduseks politseiameti tegevusluba nr PA-686-TU ja automaatsete tulekahju-signalisatsioonisüsteemide paigaldamiseks ja hooldamiseks MTR registreeringut FEH000230.

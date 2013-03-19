@@ -5,7 +5,7 @@
 </head><body>
 
 <ul class=menu>
-	<li{% if page.title == "Firmast" %} class=selected{% endif %}><a href="/">{{ page.title }}</a></li>
+	<li{% if page.title == "Firmast" %} class=selected{% endif %}><a href="/">Firmast</a></li>
 	{% for x in site.menu %}
 		<li{% if page.title == x %} class=selected{% endif %}><a href="/{{ x }}/">{{ x }}</a></li>
 	{% endfor %}
@@ -19,7 +19,7 @@
 </div>
 
 <div class=footer>
-	<div class=right>Last updated {{ site.time | date_to_long_string }}</div>
+	<div class=right>Viimati uuendatud {{ site.time | date_to_long_string }}</div>
 </div>
 
 </body>
