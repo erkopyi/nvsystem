@@ -1,0 +1,10 @@
+home: http://www.nvsystem.eu
+name: NV system
+author: Erko Püi
+paginate: 25
+permalink: /:title/
+markdown: rdiscount
+pygments: true
+menu:
+- projects
+- contact

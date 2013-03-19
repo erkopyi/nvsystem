@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>{{ site.name }}</title>
+</head><body>
+
+<ul class=menu>
+	<li{% if page.title == "home" %} class=selected{% endif %}><a href="/">home</a></li>{% for x in site.menu %}
+	<li{% if page.title == x %} class=selected{% endif %}><a href="/{{ x }}/">{{ x }}</a></li>{% endfor %}
+</ul>
+
+<div class=header>
+</div>
+
+<div class=content>
+{{ content }}
+</div>
+
+<div class=footer>
+	<div class=right>Last updated {{ site.time | date_to_long_string }}</div>
+</div>
+
+</body>
+</html>
