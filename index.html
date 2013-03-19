@@ -1,6 +1,17 @@
 ---
 layout: default
-title: home
+title: Firmast
 ---
 
-tere
+<ul class=sub_menu>
+{% for post in site.categories.Firmast %}
+	{{ post.title }}
+	<br>
+	{{ post.url }}
+	<br>
+	{% include post.md %}
+{% endfor %}
+</ul>
+
+<div class=sub_content >
+<div>

@@ -5,8 +5,10 @@
 </head><body>
 
 <ul class=menu>
-	<li{% if page.title == "home" %} class=selected{% endif %}><a href="/">home</a></li>{% for x in site.menu %}
-	<li{% if page.title == x %} class=selected{% endif %}><a href="/{{ x }}/">{{ x }}</a></li>{% endfor %}
+	<li{% if page.title == "Firmast" %} class=selected{% endif %}><a href="/">{{ page.title }}</a></li>
+	{% for x in site.menu %}
+		<li{% if page.title == x %} class=selected{% endif %}><a href="/{{ x }}/">{{ x }}</a></li>
+	{% endfor %}
 </ul>
 
 <div class=header>
