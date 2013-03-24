@@ -1,7 +1,7 @@
 ---
-title: Tegevusluba debug
+layout: submenu
+title: Tegevusluba
 my_tag: Firmast
 ---
 
-## Tere hommikust
-- aga ...
+## Tegevuluba nr...

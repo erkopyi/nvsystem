@@ -1,0 +1,6 @@
+---
+layout: submenu
+title: Kontakt
+my_tag: Kontakt
+---
+{% for post in site.categories.Kontakt %}{% if post.page == 'main' %}{{ post.content }}{% endif %}{% endfor %}

@@ -6,22 +6,21 @@
 </head><body>
 
 <ul class=menu>
-	<li{% if page.title == "Firmast" %} class=selected{% endif %}><a href="/">Firmast</a></li>
-	{% for x in site.menu %}
-		<li{% if page.title == x %} class=selected{% endif %}><a href="/{{ x }}/">{{ x }}</a></li>
-	{% endfor %}
+	<li{% if page.my_tag == "Firmast" %} class=selected{% endif %}><a href="/">Firmast</a></li>{% for x in site.menu %}
+	<li{% if page.my_tag == x %} class=selected{% endif %}><a href="/{{ x }}/">{{ x }}</a></li>{% endfor %}
 </ul>
 
 <div class=header>
+	<h1>NV System LOGO</h1>
 </div>
 
-<div class=content>
-{{ content }}
+<div class=content> 
+	{{ content }} 
 </div>
 
 <div class=footer>
 	<div class=left>Nv System OÜ  Tallinn  tel +3725072525  info@nvsystem.ee</div>
-	<div class=right>©Copyright 2013 Viimati uuendatud {{ site.time | date_to_long_string }}</div>
+	<div class=right>©Copyright 2013    Last updated {{ site.time | date_to_long_string }}</div>
 </div>
 
 </body>
