@@ -97,6 +97,10 @@ margin: 0px;
 	padding: 10px;
 }
 
+.Hinnakiri {margin-left:35px;}
+.Hinnakiri li{list-style:disc;}
+.Hinnakiri ul{padding:0;}
+
 .Kontakt ul{ 
 	padding: 0 0 0 20px;
 }
@@ -127,6 +131,25 @@ margin: 0px;
 	width: 100px;
 	float: left;
 	margin: 25px 0 0 130px;
+}
+
+.Inimesed{
+	margin-top: 20px;
+}
+
+.people{
+	display: block;
+	height: 150px;
+}
+
+.people_content{
+	margin-left: 150px;
+}
+
+.people img{
+	float: left;
+	margin-left: 20px;
+	height: 150px;
 }
 
 

@@ -1,6 +1,5 @@
 ---
-my_tag: people
-image: /images/andre1.jpg
+image: /images/andre.jpg
 ---
 
 - **Andre Talvoja**

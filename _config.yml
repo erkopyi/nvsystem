@@ -2,10 +2,12 @@ home: http://www.nvsystem.eu
 name: NV system
 author: Erko Püi
 paginate: 25
-permalink: /:title/
+permalink: /:title.html
+exclude: ws
 markdown: rdiscount
 pygments: true
 menu:
 - Teenused
+- Hinnakiri
 - Kontakt
 

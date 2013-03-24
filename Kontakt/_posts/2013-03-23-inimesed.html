@@ -1,0 +1,16 @@
+---
+layout: submenu
+title: Inimesed
+my_tag: Kontakt
+---
+
+{% for post in site.categories.inimesed %}
+<div class=people>
+<div class=people_picture>
+<img src={{ post.image }}>
+</div>
+<div class=people_content>
+{{ post.content }}	
+</div>
+</div>
+{% endfor %}

@@ -1,0 +1,9 @@
+---
+image: /images/andre.jpg
+---
+ 
+
+- **Peeter Suur**
+- Tehnik
+- Tel: +372 555 55555
+- peeter@nvsystem.eu

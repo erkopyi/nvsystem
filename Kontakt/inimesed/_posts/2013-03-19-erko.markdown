@@ -1,0 +1,8 @@
+---
+image: images/andre.jpg
+---
+
+- **Erko Pyi**
+- pole veel ametit
+- Tel: +372 508 9077
+- erko@nvsystem.eu
