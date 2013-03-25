@@ -3,6 +3,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>{{ site.name }}</title>
 	<link rel="stylesheet" href="/css/default.css" type="text/css">
+	{% for js in page.javascript %}<script type="text/javascript" src="{{ js }}"></script>{% endfor %}
 </head><body>
 
 <ul class=menu>

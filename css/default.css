@@ -147,10 +147,15 @@ margin: 0px;
 .people{
 	display: block;
 	height: 150px;
+	margin-bottom: 15px;
 }
 
 .people_content{
 	margin-left: 150px;
+}
+
+.people_content ul{
+	margin: 0;
 }
 
 .people img{
@@ -158,7 +163,6 @@ margin: 0px;
 	margin-left: 20px;
 	height: 150px;
 }
-
 
 .footer {
 margin-top: 10px;
