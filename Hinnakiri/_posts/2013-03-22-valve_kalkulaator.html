@@ -2,11 +2,27 @@
 layout: submenu
 title: Valve
 my_tag: Hinnakiri
-page: main
 javascript: ['/Hinnakiri/liquid-lite.js', '/Hinnakiri/valve.js']
 ---
+
+{% raw %}
 <div id=valve_hinnakiri></div>
+
+<script id=products type="text/liquid">
+<div class=main_unit>
+	Keskseade<select>{% for x in central %}
+	<option value="{{ x.name }}">{{ x.name }}</option>{% endfor %}
+	</select>
+</div>
+<div class=keypad>
+	S6rmsitik<select>{% for x in keypad %}{% 
+:w%}
+	<option value="{{ x.name }}">{{ x.name }}</option>{% endfor %}
+	S6rmistik
+</div>
+</script>
 <script>
 	hinnakiri("valve_hinnakiri")
 </script>
+{% endraw %}
 
